@@ -1,0 +1,281 @@
+body {
+  font-family: helvetica, sans-serif;
+  padding: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+* { box-sizing: border-box; }
+
+h1 {
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+  position: relative;
+  top: 1.2rem;
+}
+
+nav {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 300;
+  line-height: 1rem;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 0.6rem;
+  margin-top: 2rem;
+  line-height: 0.9rem;
+  width: 95%;
+}
+
+.homeuitleg {
+  line-height: 1rem;
+}
+
+.wrapper {
+  text-align: center;
+  margin-top: 3rem;
+  background-color: #f0f0f0;
+  padding-top: 1rem;
+}
+
+.wrapperp {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.wrapperinfo {
+  text-align: left;
+  margin-top: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.imgp {
+    width: 16rem;
+}
+
+.homeimg {
+  width: 10rem;
+  margin-top: 2rem;
+}
+
+.homeimg3 {
+  margin-bottom: 2rem;
+}
+
+.imgnaam {
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  border-bottom: 0.05rem solid black;
+  margin-bottom: 1rem;
+}
+
+.imginfo {
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  margin-top: 0rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 0.7rem;
+  margin-bottom: 0rem;
+}
+
+.seemore {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  color: black;
+  text-decoration: none;
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 300;
+  line-height: 1rem;
+  border-bottom: 0.05rem solid black;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  text-align: center;
+}
+
+.pcontact {
+  margin-top: 0rem;
+}
+
+.icoon {
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+.icoon1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border: 0.05rem solid black;
+  padding: 1.5rem;
+  width: 15rem;
+}
+
+.icoon2 {
+  text-align: center;
+  margin: 0 auto;
+  border: 0.05rem solid black;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  width: 15rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 0.6rem;
+  margin-top: 0rem;
+  line-height: 0.9rem;
+}
+
+.artiesten {
+    font-weight: bold;
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+    margin-top: 0rem;
+}
+
+.uitleg {
+  margin-top: 0.8rem;
+}
+
+.button {
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  border: none;
+  color: black;
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 0.7rem;
+  text-shadow: 0 1px white;
+}
+
+.button-group {
+  margin-top: 2rem;
+}
+
+.button:hover {
+  background-color: #c9c9c9;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: black;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #c9c9c9
+}
+
+.button.is-checked {
+  font-weight: 400;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.grid {
+  text-align: center;
+  margin-top: 1.5rem;
+  background-color: #f0f0f0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.viewbutton {
+  display: block;
+  color: black;
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 300;
+  line-height: 1rem;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+  border-bottom: 0.05rem solid black;
+  width: 10rem;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.element-item {
+  position: relative;
+  width: 160px;
+  height: 215px;
+  margin: 30px 20px;
+  background: #888;
+  color: #262524;
+  margin-left: 1rem;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 400;
+}
+
+.element-item.groppodesign {background-color: #f2f2f2;}
+.element-item.carlallanosprints {background-color: #f2f2f2;}
+.element-item.ellenartworks {background-color: #f2f2f2;}
+.element-item.theprintableconcept {background-color: #f2f2f2;}
+.element-item.belliesartboutique {background-color: #f2f2f2;}

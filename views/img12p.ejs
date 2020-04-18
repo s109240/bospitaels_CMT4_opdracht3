@@ -1,0 +1,26 @@
+<%- include('header'); %>
+<script src="/js/script.js"></script>
+<script src="/isotope.js"></script>
+
+
+  <h1>Contemporary</h1>
+
+<nav>
+	<a href="/home">HOME</a>
+  <a href="/work">WORK</a>
+  <a href="/contact">CONTACT</a>
+</nav>
+
+<div class="wrapperp">
+    <img src="<%=twaalf%>" alt="" class="imgp">
+</div>
+
+<div class="wrapperinfo">
+<p class="imgnaam"> <%-museum[11].naam%> </p>
+<p class="imginfo"> <span>Uitvoerder: </span> <%-museum[11].uitvoerder%> <%-museum[11].datering%></p>
+<p class="imginfo"> <span>Beschrijving: </span> <%-museum[11].beschrijving%> </p>
+<p class="imginfo"> <span>Kunstperiode: </span> <%-museum[11].periode%> </p>
+</div>
+
+<p class="footer">Bo Spitaels 2020</p>
+<%- include('footer'); %>
